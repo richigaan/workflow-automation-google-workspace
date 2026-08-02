@@ -37,6 +37,25 @@ Once a request reached the **"Resolution Generated"** stage, the script retrieve
 This approach eliminated repetitive manual document preparation, reduced calculation errors, and ensured consistency throughout the administrative process.
 #### This approach eliminated repetitive manual document preparation while ensuring consistency across all generated resolutions.
 ---
+### Process Automation
+
+The following process map illustrates the administrative workflow supported by the automation.
+
+![Process Flow](images/process-flow.png)
+
+The automation was designed around key workflow statuses, where each status triggered specific business rules:
+
+| Status | Automated Action |
+|--------|------------------|
+| **Approved 1** | Recorded the corresponding process date for traceability. |
+| **Observed** | Recorded the observation date and automatically calculated the correction deadline using business days while excluding institutional holidays. |
+| **Approved 2** | Same as before, but used only after the first status was **Observed** |
+| **Resolution Generated** | Retrieved applicant information, populated a Google Docs template, generated the official PDF resolution, and recorded the resolution generation date. |
+| **Mandate Sent** | Recorded the payment notice date and generated the information required to prepare the payment order. |
+| **Favorable Notification** | Updated the notification date for process traceability. |
+| **Unfavorable Notification** | Updated the notification date for process traceability. |
+
+Throughout the workflow, the automation maintained a complete audit trail by automatically recording key process dates, allowing every administrative milestone to be tracked throughout the request lifecycle.
 
 ### Impact
 
