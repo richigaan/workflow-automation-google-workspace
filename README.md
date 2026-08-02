@@ -41,7 +41,7 @@ This approach eliminated repetitive manual document preparation, reduced calcula
 
 The following process map illustrates the administrative workflow supported by the automation.
 
-![Process Flow](images/process-flow.png)
+![Process Flow](image/process-flow.png)
 
 The automation was designed around key workflow statuses, where each status triggered specific business rules:
 
