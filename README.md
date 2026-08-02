@@ -7,9 +7,7 @@ Each case study addresses a different operational challenge by automating repeti
 
 The primary objective of these solutions was to reduce manual effort, minimize human error, standardize operational processes, and improve the reliability of the data used in day-to-day operations.
 
-## Case Study 1
-
-## Automated Resolution Generation Workflow
+## Case Study 1: Automated Resolution Generation Workflow
 
 ### Business Problem
 
