@@ -30,9 +30,12 @@ This process involved repetitive data entry, manual date calculations, and docum
 
 Developed a workflow automation solution using Google Apps Script that integrated Google Forms, Google Sheets, and Google Docs to automate the request lifecycle from submission to document generation.
 
-The automation monitored the status of each request within Google Sheets. Once a request reached the **"Resolution Generated"** stage, the script automatically retrieved the corresponding information, populated a predefined Google Docs template by replacing placeholder fields with applicant data, and generated a standardized PDF resolution ready for review and signature.
+The automation continuously monitored the status of each request within Google Sheets. As statuses changed, the script automatically updated key procedural dates by calculating business-day deadlines while considering institutional holidays, ensuring compliance with administrative timelines.
 
-This approach eliminated repetitive manual document preparation while ensuring consistency across all generated resolutions.
+Once a request reached the **"Resolution Generated"** stage, the script retrieved the corresponding information, populated a predefined Google Docs template by replacing placeholder fields with applicant data, and generated a standardized PDF resolution ready for review and signature.
+
+This approach eliminated repetitive manual document preparation, reduced calculation errors, and ensured consistency throughout the administrative process.
+#### This approach eliminated repetitive manual document preparation while ensuring consistency across all generated resolutions.
 ---
 
 ### Impact
