@@ -26,13 +26,13 @@ Administrative requests were submitted through Google Forms and required analyst
 This process involved repetitive data entry, manual date calculations, and document generation, increasing processing time and the possibility of human error.
 
 ---
-
 ### Solution
 
-Developed a workflow automation solution using Google Apps Script that integrated Google Forms, Google Sheets, and Google Docs to streamline the entire process.
+Developed a workflow automation solution using Google Apps Script that integrated Google Forms, Google Sheets, and Google Docs to automate the request lifecycle from submission to document generation.
 
-The solution automatically tracked request statuses, calculated procedural deadlines based on business days while considering institutional holidays, and generated standardized resolution documents once the approval stage was reached.
+The automation monitored the status of each request within Google Sheets. Once a request reached the **"Resolution Generated"** stage, the script automatically retrieved the corresponding information, populated a predefined Google Docs template by replacing placeholder fields with applicant data, and generated a standardized PDF resolution ready for review and signature.
 
+This approach eliminated repetitive manual document preparation while ensuring consistency across all generated resolutions.
 ---
 
 ### Impact
