@@ -1,4 +1,5 @@
-# Repository Overview
+# Workflow Automations: Google Workspace
+## Repository Overview
 
 This repository presents a collection of workflow automation solutions developed using Google Apps Script and other Google Workspace tools.
 
